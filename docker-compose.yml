@@ -8,7 +8,7 @@ services:
     ports:
       - 80:80
     environment:
-      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
-      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
-      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
-      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_DB_HOST: database-pb2.cpy1vk3kgfvg.us-east-1.rds.amazonaws.com
+      WORDPRESS_DB_USER: adminpb
+      WORDPRESS_DB_PASSWORD: teste123
+      WORDPRESS_DB_NAME: database-pb2
