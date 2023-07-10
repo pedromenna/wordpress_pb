@@ -172,21 +172,21 @@ docker ps
 - Voltando ao processo de criação do Auto Scaling Group recarregue as opções de configuração de execução e selecione a que acabamos de criar.
 - Clique em "próximo" no canto inferior direito.
 
-### **Etapa 2** 
+### **Parte 2** 
 - Mantenha a VPC utilizada anteriormente e selecione todas as zonas de disponibilade.
 - Clique em "próximo" no canto inferior direito.
 
-### **Etapa 3**
+### **Parte 3**
 - Selecione o Load Balancer criado anteriormente.
 - Mantenha as outras opções padrões.
 - Clique em "próximo".
 
-### **Etapa 4**
+### **Parte 4**
 - Tamanho do grupo, aqui vamos especificar o tamanho do grupo do Auto Scaling alterando a capacidade desejada. Você também pode especificar os limites de capacidade mínima e máxima. Sua capacidade desejada deve estar dentro do intervalo dos limites. Neste caso vamos configurar de acordo com o que a atividade pede(Capacidade desejada: 2, Capacidade mínima: 2, Capacidade máxima: 2).
 - Mantenha o restante das configurações pré-definidas pela aws e clique em "próximo".
 
-### **Etapa 5**
+### **Parte 5**
 - Apenas ignore essa parte no momento.
 
-### **Etapa 6**
+### **Parte 6**
 - Adicione uma TAG "Name" "PB - Senac WORDP", para as instancias ja subirem com esse nome e ter uma organização melhor.
